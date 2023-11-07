@@ -1,0 +1,214 @@
+body{
+    font-family: 'Kanit', sans-serif;
+    background-color: rgb(65, 68, 153);
+    padding: 0;
+    overflow: hidden;
+    transition: background-color 0.5s ease;
+    display: flex;
+}
+
+::selection   {
+    background: rgb(65, 68, 153);
+    color: rgb(255, 255, 255);
+    border-radius: 20%;
+}
+
+.container{
+    height: 850px;
+    width: 650px;
+    background: rgb(107, 179, 227);
+    border-radius: 12%;
+    text-align: center;
+    margin-left: 600px;
+    margin-top: 30px;
+    overflow: hidden;
+    box-shadow: 0px 0px 70px rgb(81, 162, 167);
+    transition: transform 0.3s linear, background 0.3s ease, box-shadow 0.5s ease;
+}
+
+.container:hover{
+    height: 850px;
+    width: 650px;
+    background: rgb(241, 149, 175);
+    border-radius: 12%;
+    text-align: center;
+    margin-left: 600px;
+    margin-top: 30px;
+    overflow: hidden;
+    box-shadow: 0px 0px 70px rgb(170, 91, 103);
+    transform: scale(1.03);
+}
+
+container:hover body{
+    background-color: rgb(191, 85, 94);
+}
+
+.container:hover ::selection{
+    background: rgb(191, 85, 94);
+    color: #fff;
+    border-radius: 20%;
+}
+
+.container h1 {
+    font-size: 70px;
+    font-family: 'Kanit', sans-serif;
+    color:rgb(91, 95, 213);
+    margin-top: 70px;
+    transition: transform 0.4s ease;
+}
+
+.container:hover h1 {
+    font-size: 70px;
+    font-family: 'Kanit', sans-serif;
+    color:rgb(154, 84, 93);
+    margin-top: 70px;
+    transform: translateY(-200px);
+}
+
+.container .line hr{
+    margin-top: -45px;
+    width: 600px;
+    background: rgb(91, 95, 213);
+    border-color: rgb(91, 95, 213);
+    transition: transform 0.4s ease, width 0.6s ease;
+}
+
+.container:hover .line hr{
+    margin-top: -45px;
+    width: 10px;
+    background: rgb(154, 84, 93);
+    border-color: rgb(154, 84, 93);
+    transform: translateY(-200px);
+}
+
+.container .b1 {
+    height: 600px;
+    width: 510px;
+    border-radius: 15%;
+    background: rgb(227, 250, 247);
+    margin-left: 70px;
+    margin-top: 30px;
+    overflow: hidden;
+    transition: transform 0.4s ease, trasform 0.4s ease, box-shadow 0.3s ease;
+}
+
+.container:hover .b1 {
+    height: 600px;
+    width: 510px;
+    border-radius: 15%;
+    background: rgb(227, 250, 247);
+    overflow: hidden;
+    transform: scale(1.1) translateY(-80px);
+    box-shadow: 0 0 80px rgb(241, 129, 129);
+}
+
+.container .b1 .bordo1{
+    border: 6px solid rgb(91, 95, 213);
+    height: 580px;
+    width: 490px;
+    border-radius: 15%;
+    margin-top: 4px;
+    margin-left: 4px;
+    overflow: hidden;
+    transition: border 0.4s ease;
+}
+
+.container:hover .b1 .bordo1{
+    border: 6px solid rgb(241, 129, 129);
+    height: 580px;
+    width: 490px;
+    border-radius: 15%;
+    margin-top: 4px;
+    margin-left: 4px;
+    overflow: hidden;
+}
+
+.container .b1 .bordo1 img {
+    margin-top: 80px;
+    margin-left: -5px;
+    transition: transform 0.7s ease;
+}
+
+.container:hover .b1 .bordo1 img {
+    margin-top: 80px;
+    margin-left: -5px;
+    transform: translateX(500px);
+}
+
+.container .b1 .bordo1 .img1 img{
+    margin-top: -1000px;
+    transition: transform 0.7s ease;
+}
+
+.container:hover .b1 .bordo1 .img1 img {
+   margin-top: 105px;
+   margin-left: -5px;
+   transform: translateX(500px);
+}
+
+.container .b1 .bordo1 .box {
+    height: 500px;
+    width: 400px;
+    margin-top: -475px;
+    margin-left: -450px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    transition: transform 0.7s ease;
+
+}
+
+.container:hover .b1 .bordo1 .box {
+    height: 500px;
+    width: 400px;
+    margin-top: -965px;
+    transform: translateX(495px);
+}
+
+.container .b1 .bordo1 .box p{
+    color: rgb(41, 59, 96);
+    text-align: center;
+    margin-right: 30px;
+    transition: color 0.4s ease;
+}
+
+.container:hover .b1 .bordo1 .box p{
+    color: rgb(179, 55, 55);
+    text-align: center;
+    margin-right: 30px;
+}
+
+.container .b1 .bordo1 .box::-webkit-scrollbar {
+    width: 12px;
+    height: 8px;
+    background-color: rgb(102, 122, 187);
+    border-radius: 12px;
+    transition: background-color 3s ease;
+}
+  
+.container .b1 .bordo1 .box::-webkit-scrollbar-thumb {
+    background: rgb(36, 29, 132);
+    border-radius: 15px;
+    transition: background 3s ease;
+}
+  
+.container .b1 .bordo1 .box::-webkit-scrollbar-thumb:hover {
+    background: rgb(29, 26, 26);
+    border-radius: 15px;
+}
+
+.container:hover .b1 .bordo1 .box::-webkit-scrollbar {
+    width: 12px;
+    height: 8px;
+    background-color: rgb(229, 116, 116);
+    border-radius: 12px;
+}
+  
+.container:hover .b1 .bordo1 .box::-webkit-scrollbar-thumb {
+    background: rgb(170, 72, 72);
+    border-radius: 15px;
+}
+  
+.container:hover .b1 .bordo1 .box::-webkit-scrollbar-thumb:hover {
+    background: rgb(143, 62, 62);
+    border-radius: 15px;
+}
